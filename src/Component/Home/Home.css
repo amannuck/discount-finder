@@ -1,0 +1,81 @@
+/* Home.css */
+.home-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.cards-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  
+}
+
+.deal-row {
+  margin-top: 30px;
+  color: white;
+  background-color: #004bad;
+  height: 500px;
+}
+
+.cat-row {
+  margin: 10px;
+  color: black;
+  height: 450px;
+  margin-bottom: 30px;
+}
+
+.prod1-row {
+  margin-bottom: 30px;
+  height: 450px;
+  background-color: #ffffff;
+}
+
+.prod2-row {
+  margin-bottom: 20px;
+  height: 450px;
+
+}
+
+.header-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.title-row {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  padding-left: 20px;
+  font-size: 30px;
+  margin-top: 20px;
+  font-family: "Montserrat";
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  text-align: center;
+  
+}
+
+.footer {
+  height: 80px;
+  display: flex;
+  justify-content:center ;
+  align-items: center;
+  background-color: #004bad;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+
+.map-container {
+  width: 100%;
+  max-width: 800px;
+  height: 400px;
+  margin: 20px auto;
+}
